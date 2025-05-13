@@ -1,0 +1,123 @@
+Données Fournisseurs:Colonnes : Nom du fournisseur, Date de commande, Montant de la commande, Date de réception, Date de paiement, Délai de paiement, Statut du paiement, etc.
+
+Calculs :
+
+Délai de paiement = Date de paiement - Date de commande
+
+Statut du paiement = En retard / Dans les délais                                                                                Tableau de Bord:Un aperçu général avec des graphiques sur :
+
+Délai moyen de paiement des fournisseurs.
+
+Montant total des commandes non réglées.
+
+Montant des paiements effectués dans les délais.                                                                             Analyse des Retards:Un tableau listant les retards de paiement des fournisseurs, avec des filtres pour identifier les plus longs retards, ainsi que des graphiques pour visualiser les retards par fournisseur ou par mois.                                                                             Gestion du BFR:Colonnes : Date, Stock, Créances clients, Dettes fournisseurs, Cash disponible, etc.
+
+Calculs :
+
+BFR (Besoin en Fonds de Roulement) = (Stock + Créances clients) - Dettes fournisseurs
+
+Suivi de l’évolution du BFR au fil des mois avec des graphiques.                                            Calcul des Pénalités: Délai de paiement (en jours)
+
+Taux d'intérêt applicable selon la loi 69-21 exemple : 3% Montant de la pénalité .                 Tableau de Bord Fournisseurs:Fournisseur / Chiffre d'Affaires : Graphique à barres montrant la proportion de l'achat global par fournisseur.
+
+Fournisseur / Dettes : Graphique à secteurs pour visualiser la répartition des dettes par fournisseur.
+Calculs :
+
+Total des dettes par fournisseur.
+
+Total des pénalités par fournisseur.
+
+Statistiques sur les paiements en retard (moyenne des jours de retard).                                    Calculs :
+
+Total des dettes par fournisseur.
+
+Total des pénalités par fournisseur.
+
+Statistiques sur les paiements en retard (moyenne des jours de retard).                                          Calculs :
+
+Total des dettes par fournisseur.
+
+Total des pénalités par fournisseur.
+
+Statistiques sur les paiements en retard (moyenne des jours de retard).                   Suivi_Trésorerie:  Cette feuille permet de prévoir et suivre les décaissements liés aux fournisseurs.
+
+Colonnes à inclure :
+
+Date Prévue de Paiement
+
+Type (Décaissement)
+
+Fournisseur
+
+Montant Prévu
+
+Montant Réel Payé
+
+Écart = prévu – payé
+
+Solde de Trésorerie :
+
+La première ligne contient le solde initial.
+
+Les lignes suivantes : Solde précédent – Montant payé.
+Ajouter un graphique de trésorerie mensuelle pour visualiser les flux.                       Ratios_Financiers:Cette feuille calcule les indicateurs de gestion liés aux délais de paiement fournisseurs et au BFR.
+
+Valeurs à saisir ou récupérer automatiquement :
+
+Total Achats Fournisseurs TTC
+
+Total Dettes Fournisseurs (non réglées)
+
+Valeur du Stock
+
+Créances Clients
+
+Solde Trésorerie
+
+Ratios à calculer :
+
+DPO (Days Payable Outstanding)
+= (Dettes Fournisseurs / Achats TTC) × 365
+
+BFR (Besoin en Fonds de Roulement)
+= Stocks + Créances Clients – Dettes Fournisseurs
+
+Cash Ratio
+= Trésorerie / Dettes Fournisseurs
+
+Current Ratio
+= Actifs Court Terme / Passifs Court Terme         Tu peux illustrer ces ratios avec des jauges ou barres colorées (vert = bon, rouge = critique).                                 
+ Résumé_Audit:  Synthèse automatique pour les auditeurs.
+
+Indicateurs clés à afficher :
+
+Nombre total de factures
+
+Nombre de factures non conformes
+
+Total des pénalités calculées
+
+Fournisseur avec le plus de retards
+
+Taux de conformité global (%)
+
+Graphique : histogramme des retards par fournisseur
+
+Recommandation automatique :
+
+"Position d’alerte" si trop de non-conformité
+
+"Position neutre" si respect acceptable
+
+"Position favorable" si conformité > 90 %
+Segments dynamiques : pour filtrer par fournisseur, mois, statut payé/non payé.
+
+Graphiques croisés dynamiques : pour visualiser la répartition des retards.
+
+Alertes visuelles : rouge si non-conforme, vert si conforme.
+ Tableaux croisés dynamiques
+ Synthétiser rapidement les retards par fournisseur
+
+Analyser la répartition mensuelle des paiements
+
+Calculer les pénalités globales par fournisseur ou par mois
